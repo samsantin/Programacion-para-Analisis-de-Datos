@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("train.csv")
 
+#Creación de título con html
 st.write("<h1 style='text-align: center; font-size: 3em;'>Visualización de datos Titanic</h1>", unsafe_allow_html=True)
 
 #Histograma columna Survived
